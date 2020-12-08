@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="QueryPaymentOption" groupId="com.example.TicketReservationESB.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/QueryPaymentOption.xml</file>
+    </artifact>
+    <artifact name="CardPaymentAPI" groupId="com.example.TicketReservationESB.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CardPaymentAPI.xml</file>
+    </artifact>
+    <artifact name="DialogBillPayment" groupId="com.example.TicketReservationESB.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/DialogBillPayment.xml</file>
+    </artifact>
+</artifacts>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/cardPayment" name="CardPaymentAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/queryPayment/{type}">
+        <inSequence>
+            <log description="Payment Request" level="custom">
+                <property name="Resource_Name" value="Payment Type"/>
+                <property expression="/default/expression" name="type"/>
+            </log>
+            <send>
+                <endpoint key="QueryPaymentOption"/>
+            </send>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/payment" name="DialogBillPayment" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/queryPayment/{type}">
+        <inSequence>
+            <log description="PaymentOption">
+                <property name="Resource_Name" value="Payment Type"/>
+                <property expression="/default/expression" name="Type"/>
+            </log>
+            <send/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

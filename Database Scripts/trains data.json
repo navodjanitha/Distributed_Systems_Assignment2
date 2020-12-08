@@ -1,0 +1,9 @@
+{"_id":{"$oid":"5cca9668d6aff6478cf14a94"},"name":"Express","date":"01/01/2019 6:25 am","from":"Colombo Fort","to":"Matela","ticketPrice":"690 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ccaaa490c7d364a6ce4224d"},"id":"444","name":"Inter City Express","date":"01/01/2019 7:00 am","from":"Colombo Fort","to":"Kandy","ticketPrice":"750 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ccaaaf6f3446450e407499a"},"id":"555","name":"Udarata Menike","date":"01/01/2019 3:45 pm","from":"Badulla ","to":"Colombo-Fort","ticketPrice":"850 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ccaab74a0d411637cb84dd1"},"name":"Gaalu Kumari","date":"01/02/2019 2:50 pm","from":"Matara","to":"Badulla","ticketPrice":"350 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ccd185cac76fb6848b6677a"},"name":"Ruhunu Kumari","date":"03/03/2019 5.05 am","from":"Matara","to":"Maradana","ticketPrice":"250 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ccfeda606546664a078b8bd"},"name":"Samudra Devi","date":"01/01/2019 3:10 pm","from":"Matara","to":"Colombo-Fort","ticketPrice":"250 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cdbccd3a729677e109eee41"},"name":"Night Mail","date":"08/03/2019 7:15 am","time":"12.3","from":"Trincomalee","to":"Matara","ticketPrice":"750 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cdbce3c4ad066620c2bb913"},"name":"Yaldeve","date":"22/02/2019 11:50 pm","time":"2019-03-01T03:40:00","from":"Colombo-Fort","to":"Vavuniya","ticketPrice":"560 LKR","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cdbce6a4ad066620c2bb914"},"name":"Rajarata Rajini","date":"15/02/2019 8:15 am","time":"2019-03-01 03:40:00 pm","from":"Vavuniya","to":"Matara","ticketPrice":"580 LKR","__v":{"$numberInt":"0"}}
